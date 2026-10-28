@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. Mobile Hamburger Menu Toggle
+ 
   const menuBtn = document.getElementById("menu-btn");
   const menuIcon = document.getElementById("menu-icon");
   const mobileMenu = document.getElementById("mobile-menu");
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 2. Filter Meals Functionality
+
   const filterBtns = document.querySelectorAll(".filter-btn");
   const mealCards = document.querySelectorAll(".meal-card");
 
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // 3. Pricing Toggle Switcher (Monthly / Yearly)
+ 
   const toggleBtn = document.getElementById("toggle-billing");
   const toggleCircle = document.getElementById("toggle-circle");
   const starterPrice = document.getElementById("starter-price");
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 4. Form Submit Prevention
+
   const form = document.getElementById("cta-form");
   if (form) {
     form.addEventListener("submit", (e) => {
